@@ -29,7 +29,7 @@ yes | yay -S picom-simpleanims-next-git youtube-music-bin visual-studio-code-bin
 sudo pacman -Syu --noconfirm
 
 # install essential packages and basic xorg packages
-sudo pacman -S git cmake clang xorgjq  mesa mesa-demos xf86-video-amdgpu libva-mesa-driver mesa-vdpau
+sudo pacman -S git cmake clang xorg-xinit xorg-xinput xorg-xrandr xorg-server mesa mesa-demos xorg-fonts jq  mesa mesa-demos xf86-video-amdgpu libva-mesa-driver mesa-vdpau
 
 # delete and create void .zshrc and symbolic link with file to use
 rm -rf ~/.zshrc
