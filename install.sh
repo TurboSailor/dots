@@ -40,7 +40,7 @@ ln -s ~/.config/zsh/.zshrc ~/.zshrc
 curl -sS https://starship.rs/install.sh | sh
 
 # install other packages *audio terminal and some utils
-sudo pacman -S meson neovim zsh tmux xclip bat lsd neofetch conky sxhkd bspwm kitty feh rofi flameshot networkmanager pavucontrol pulseaudio pulseaudio-alsa keychain playerctl betterlockscreen brightnessctl amixer obsidian keepassxc --noconfirm
+sudo pacman -S meson neovim zsh tmux xclip bat lsd neofetch conky sxhkd bspwm kitty feh rofi flameshot networkmanager pavucontrol pulseaudio pulseaudio-alsa keychain playerctl betterlockscreen brightnessctl amixer obsidian keepassxc thunar thunar-archive-plugin thunar-media-tags-plugin --noconfirm
 
 # copy config file to ~/.config folder
 cp -rv $route/.config/* ~/.config/
